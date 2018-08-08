@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BFPFocusView.h"
 
 //! Project version number for BFPFocusScrollView.
 FOUNDATION_EXPORT double BFPFocusScrollViewVersionNumber;
@@ -15,5 +16,3 @@ FOUNDATION_EXPORT double BFPFocusScrollViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char BFPFocusScrollViewVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BFPFocusScrollView/PublicHeader.h>
-
-#import <BFPFocusScrollView/BFPFocusView.h>

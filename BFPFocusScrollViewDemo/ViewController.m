@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "BFPFocusView.h"
+#import <BFPFocusScrollView/BFPFocusScrollView.h>
 
 @interface ViewController ()
 @property (nonatomic, strong) BFPFocusView *focusView;
@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    _focusView = [[BFPFocusView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 400) animationDuration:4];
+    _focusView = [[BFPFocusView alloc] initWithFrame:CGRectMake(0, 84, self.view.frame.size.width, 450) animationDuration:4];
     [self.view addSubview:_focusView];
     
     __weak typeof(self) weakSelf = self;

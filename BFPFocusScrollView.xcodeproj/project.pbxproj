@@ -18,8 +18,7 @@
 		BF8498AB21194FB700BFE95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8498AA21194FB700BFE95C /* Assets.xcassets */; };
 		BF8498AE21194FB700BFE95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8498AC21194FB700BFE95C /* LaunchScreen.storyboard */; };
 		BF8498B121194FB700BFE95C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8498B021194FB700BFE95C /* main.m */; };
-		BF8498B9211979A300BFE95C /* BFPFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8498B5211979A300BFE95C /* BFPFocusView.m */; };
-		BF8498BA211979A300BFE95C /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8498B8211979A300BFE95C /* NSTimer+Addition.m */; };
+		BF8498BC211AC47B00BFE95C /* BFPFocusScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF84988821193D5300BFE95C /* BFPFocusScrollView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +39,6 @@
 		BF8498AD21194FB700BFE95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF8498AF21194FB700BFE95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF8498B021194FB700BFE95C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF8498B5211979A300BFE95C /* BFPFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPFocusView.m; sourceTree = "<group>"; };
-		BF8498B6211979A300BFE95C /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
-		BF8498B7211979A300BFE95C /* BFPFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPFocusView.h; sourceTree = "<group>"; };
-		BF8498B8211979A300BFE95C /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8498BC211AC47B00BFE95C /* BFPFocusScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +66,7 @@
 				BF84988A21193D5300BFE95C /* BFPFocusScrollView */,
 				BF8498A021194FB500BFE95C /* BFPFocusScrollViewDemo */,
 				BF84988921193D5300BFE95C /* Products */,
+				BF8498BB211AC47B00BFE95C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +95,6 @@
 		BF8498A021194FB500BFE95C /* BFPFocusScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BF8498B7211979A300BFE95C /* BFPFocusView.h */,
-				BF8498B5211979A300BFE95C /* BFPFocusView.m */,
-				BF8498B6211979A300BFE95C /* NSTimer+Addition.h */,
-				BF8498B8211979A300BFE95C /* NSTimer+Addition.m */,
 				BF8498A121194FB500BFE95C /* AppDelegate.h */,
 				BF8498A221194FB500BFE95C /* AppDelegate.m */,
 				BF8498A421194FB500BFE95C /* ViewController.h */,
@@ -113,6 +106,13 @@
 				BF8498B021194FB700BFE95C /* main.m */,
 			);
 			path = BFPFocusScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		BF8498BB211AC47B00BFE95C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,10 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8498B9211979A300BFE95C /* BFPFocusView.m in Sources */,
 				BF8498A621194FB600BFE95C /* ViewController.m in Sources */,
 				BF8498B121194FB700BFE95C /* main.m in Sources */,
-				BF8498BA211979A300BFE95C /* NSTimer+Addition.m in Sources */,
 				BF8498A321194FB500BFE95C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

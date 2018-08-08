@@ -1,2 +1,2 @@
 # BFPFocusScrollView
-一个无线轮播焦点图
+一个无限轮播焦点图
